@@ -1,3 +1,3 @@
 # Ponteiros-AED1-
 
-[Lista.exercicios.-.Ponteiros.pdf](https://github.com/user-attachments/files/16393648/Lista.exercicios.-.Ponteiros.pdf)
+![Lista_Ponteiros](https://github.com/user-attachments/assets/0f5d4cf0-eec4-4c85-bbd6-87ea9ec79222)
