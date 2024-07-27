@@ -14,7 +14,7 @@ int maior(struct No *cabeca) {
         if(temp->valor > maiorValor) {
             maiorValor = temp->valor;
         }
-        temp = temp->proximo; // Move para o próximo nó
+        temp = temp->proximo;
     }
 
     return maiorValor;
