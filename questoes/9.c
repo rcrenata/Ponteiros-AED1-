@@ -8,11 +8,13 @@ struct No{
 
 int main(){
     int n;
-    scanf("%d\n", &n);
+    printf("Tamanho da lista: ");
+    scanf("%d", &n);
     struct No *cabeca = NULL;
     
     for(int i=0; i<n; i++){
         struct No *novoNo = (struct No*) malloc(sizeof(struct No));
+        printf("%d nó da lista: ", i);
         scanf("%d", &(novoNo->valor));
         novoNo->proximo = cabeca;
         cabeca = novoNo;
