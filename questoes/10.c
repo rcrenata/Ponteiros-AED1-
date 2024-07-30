@@ -22,11 +22,13 @@ int maior(struct No *cabeca) {
 
 int main(){
     int n;
-    scanf("%d\n", &n);
+    printf("Tamanho da lista: ");
+    scanf("%d", &n);
     struct No *cabeca = NULL;
     
     for(int i=0; i<n; i++){
         struct No *novoNo = (struct No*) malloc(sizeof(struct No));
+        printf("%d no da lista: ", i);
         scanf("%d", &(novoNo->valor));
         novoNo->proximo = cabeca;
         cabeca = novoNo;
@@ -34,7 +36,7 @@ int main(){
     
     int maiorValor = maior(cabeca);
     
-    printf("nó de maior valor da lista encadeada: %d\n", maiorValor);
+    printf("no de maior valor da lista encadeada: %d\n", maiorValor);
 
     while(cabeca!=NULL){
         struct No *aux = cabeca;
